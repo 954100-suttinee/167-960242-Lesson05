@@ -119,7 +119,7 @@
           Enter the method [1-4]:        
           ```
 
-3. The program must include the Receipt class for the receipt issued to the customer.
+3. The program must include the [Receipt](../src/main/java/org/dii/oop/exercise01/Receipt.java) class for the receipt issued to the customer.
    ```
    class Receipt {
      /* add modifier */ double costPerHour = 20.0;    // is used for all receipts
@@ -133,7 +133,6 @@
    ...
    }
    ```
-   Note:
     * Access modifier: static, private, public, ...
     * You have to define the correct access modifier of each attribute by yourself.
     * You have to define the encapsulation behavior of the Receipt class to meet the requirement. (Read-only, Read-write, and Write-only of the class attributes)
